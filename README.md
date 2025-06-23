@@ -100,7 +100,7 @@ Hello there!                        # This sends a message
 
 This is just an example of some of the commands that can be used. For more details on the protocol used, please check the reference below. Note that, not all commands require information from the server, therefore, not all commands have a protocol equivalent. Similarly, some protocol messages are used for control and don't have any associated commands.
 
-> See also: [Protocol Overview](../doc/protocol.md)
+> See also: [Protocol Overview](./protocol.md)
 
 ## Notes
 
@@ -111,3 +111,6 @@ In addition to this, we recommend using the `rlwrap` tool to allow for command h
 ```bash
 rlwrap java client.Client <session-suffix>
 ```
+
+> Grade: 19.0/20 <br>
+> We used `java.util.concurrent`
